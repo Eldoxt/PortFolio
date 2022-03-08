@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.png'
+import ME from '../../assets/moii.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import {HiOutlineInformationCircle} from 'react-icons/hi'
@@ -24,7 +24,7 @@ const about = () => {
             <article className='about__card'>
               <HiOutlineInformationCircle className='about__icon'/>
               <h5>Informations Personnelles</h5>
-              <small>1 an d'expérience professionnel</small>
+              <small>Né le 12 Janvier 2001 <br /> J'habite à Boulogne-sur-Mer</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
@@ -34,13 +34,13 @@ const about = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Parcours Scolaire</h5>
-              <small>1 an d'expérience professionnel</small>
+              <small>Obtention d'un BAC STI2D option SIN <br /> Obtention d'un BTS SIO option SLAM</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque fugiat nobis maiores laborum incidunt molestias itaque ipsa perferendis tempora? Officia ducimus sint sunt commodi labore quidem magni omnis ea?
+            Passioné d'informatique en général, j'aimerai travailler dans le développement web ou dans la maintenance informatique.
           </p>
-            <a href="#contact" className='btn btn-primary'>Contactez moi</a>
+            <a href="#contact" className='btn btn-primary'>Contactez-moi</a>
         </div>
       </div>
     </section>
