@@ -84,10 +84,10 @@ const services = () => {
                 <GiCheckMark className='service__list-icon' />
                 <p>Ponctuel</p>
               </li>
-              {/* <li>
+              <li>
                 <GiCheckMark className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </li> */}
+                <p>Permis B</p>
+              </li>
             </ul>
         </article>
         {/*        END Qualité        */}
